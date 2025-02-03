@@ -9,6 +9,8 @@ public class SwitchExample {
 
         switch (option) {
             case 1:
+            fun1
+            fun2
                 break;
             case 2:
                 break;
