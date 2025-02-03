@@ -13,6 +13,8 @@ public class SwitchExample {
             fun2
                 break;
             case 2:
+            fun2
+            fun3
                 break;
             case 3:
                 break;
