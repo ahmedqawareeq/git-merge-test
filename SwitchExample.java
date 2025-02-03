@@ -9,7 +9,9 @@ public class SwitchExample {
 
         switch (option) {
             case 1:
-                System.out.println("Option 1 selected.");
+                functionOne();
+                functionTwo();
+                functionThree();
                 break;
             case 2:
                 functionA();
@@ -35,5 +37,17 @@ public class SwitchExample {
 
     public static void functionB() {
         System.out.println("Function B executed.");
+    }
+
+    public static void functionOne() {
+        System.out.println("Function One executed.");
+    }
+
+    public static void functionTwo() {
+        System.out.println("Function Two executed.");
+    }
+
+    public static void functionThree() {
+        System.out.println("Function Three executed.");
     }
 }
