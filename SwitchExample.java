@@ -9,45 +9,16 @@ public class SwitchExample {
 
         switch (option) {
             case 1:
-                functionOne();
-                functionTwo();
-                functionThree();
                 break;
             case 2:
-                functionA();
-                functionB();
                 break;
             case 3:
-                System.out.println("Option 3 selected.");
                 break;
             case 4:
-                System.out.println("Option 4 selected.");
                 break;
             default:
-                System.out.println("Invalid option. Please select a number between 1 and 4.");
                 break;
         }
-
         scanner.close();
-    }
-
-    public static void functionA() {
-        System.out.println("Function A executed.");
-    }
-
-    public static void functionB() {
-        System.out.println("Function B executed.");
-    }
-
-    public static void functionOne() {
-        System.out.println("Function One executed.");
-    }
-
-    public static void functionTwo() {
-        System.out.println("Function Two executed.");
-    }
-
-    public static void functionThree() {
-        System.out.println("Function Three executed.");
     }
 }
