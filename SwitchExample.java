@@ -12,7 +12,8 @@ public class SwitchExample {
                 System.out.println("Option 1 selected.");
                 break;
             case 2:
-                System.out.println("Option 2 selected.");
+                functionA();
+                functionB();
                 break;
             case 3:
                 System.out.println("Option 3 selected.");
@@ -26,5 +27,13 @@ public class SwitchExample {
         }
 
         scanner.close();
+    }
+
+    public static void functionA() {
+        System.out.println("Function A executed.");
+    }
+
+    public static void functionB() {
+        System.out.println("Function B executed.");
     }
 }
